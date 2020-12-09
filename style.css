@@ -1,23 +1,31 @@
 h1{
 	margin: 0;
 	color: black;
+	font-size: 50px;
 }
 
-h2{
-	margin: 0;
+body{
+	width: 100vw;
+	height: 100vh;
 }
-
 h3{
-	margin: 0;
+	margin: 30px;
+	margin-bottom: 70px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: white;
 }
 
 button{
 	border-radius: 5%;
+	width: 80%;
 	background: none;
-	background-color: white;
+	background-color: yellowgreen;
 	border: white;
-	padding: 10px;
+	padding: 15px;
 	font-size: 15px;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 5px;
 
 }
 
@@ -26,34 +34,41 @@ button:hover{
 }
 
 nav {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	height: 35vh;
-	background-color: paleturquoise;
+	background-color: yellowgreen;
 	color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
+	/* width: 100%; */
 }
+
 main{
-	background-color: rgba(216, 112, 147, 0.345);
+	background-color: black;
 	position: relative;
-	height: 65vh;
+	height: 100%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	text-align: center;
+	/* width: 100%; */
 }
 section,
 
 td {
-	border:  2px solid #333;
+	border:  13px solid  white;
 	height:  100px;
 	width:  100px;
 	text-align:  center;
 	vertical-align:  middle;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size:  70px;
+	color: white;
 	cursor: pointer;
+	margin-bottom: 100px;
 }
 
 table {
@@ -77,19 +92,25 @@ table tr td:last-child {
 }
 
 .endgame {
-  display: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
   width: 200px;
   top: 120px;
-  background-color: rgba(205,133,63, 0.8);
+  background-color: white;
   position: absolute;
   left: 50%;
   margin-left: -100px;
   padding-top: 50px;
-  padding-bottom: 50px;
+	padding-bottom: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
   text-align: center;
   border-radius: 5px;
-  color: white;
-  font-size: 2em;
+  color: black;
+	font-size: 2em;
+	border: 2px solid black;
 }
 
 
