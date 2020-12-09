@@ -3,6 +3,9 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
   <meta charset="UTF-8">
   <title>Tic Tac Toe</title>
 
@@ -11,28 +14,35 @@
 </head>
 
 <body>
+  <nav>
+    <h1>Tic-Tac-Toe </h1>
+    <h2>Test Your Luck vs. The Unbeatable Tic-Tac-Toe Computer!</h2>
+    <button onClick="startGame()">Replay</button>
+    <h3>Human (O) goes first. Computer (X) second.</h3>
+  </nav>
 
-  <table>
-    <tr>
-      <td class="cell" id="0"></td>
-      <td class="cell" id="1"></td>
-      <td class="cell" id="2"></td>
-    </tr>
-    <tr>
-      <td class="cell" id="3"></td>
-      <td class="cell" id="4"></td>
-      <td class="cell" id="5"></td>
-    </tr>
-    <tr>
-      <td class="cell" id="6"></td>
-      <td class="cell" id="7"></td>
-      <td class="cell" id="8"></td>
-    </tr>
-  </table>
-  <div class="endgame">
-    <div class="text"></div>
-  </div>
-  <button onClick="startGame()">Replay</button>
+  <main>
+    <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+    <div class="endgame">
+      <div class="text"></div>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>

@@ -1,3 +1,50 @@
+h1{
+	margin: 0;
+	color: black;
+}
+
+h2{
+	margin: 0;
+}
+
+h3{
+	margin: 0;
+}
+
+button{
+	border-radius: 5%;
+	background: none;
+	background-color: white;
+	border: white;
+	padding: 10px;
+	font-size: 15px;
+
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+nav {
+	height: 35vh;
+	background-color: paleturquoise;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+main{
+	background-color: rgba(216, 112, 147, 0.345);
+	position: relative;
+	height: 65vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section,
+
 td {
 	border:  2px solid #333;
 	height:  100px;
@@ -11,10 +58,6 @@ td {
 
 table {
 	border-collapse: collapse;
-	position: absolute;
-	left: 50%;
-	margin-left: -155px;
-	top: 50px;
 }
 
 table tr:first-child td {
@@ -48,3 +91,5 @@ table tr td:last-child {
   color: white;
   font-size: 2em;
 }
+
+
