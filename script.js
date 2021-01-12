@@ -41,6 +41,7 @@ function turn(squareId, player) {
 
 function checkWin(board, player) {
   let plays = board.reduce((a, e, i) =>
+    //Way to find every index that the player has played in. 
     (e === player) ? a.concat(i) : a, []);
   let gameWon = null;
   for (let [index, win] of winCombos.entries()) {
